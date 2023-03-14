@@ -1,0 +1,126 @@
+@charset "UTF-8";
+@import url(fontes/idroid.otf);
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf.);
+}
+body {
+    margin: 0px;
+    background-color: antiquewhite;
+}
+header {
+    background-image: linear-gradient(to top,#1A5C38, #258550, #39CF7C);
+    height: 140px;
+    padding-top: 7px;
+    padding-bottom: 15px;
+}
+#principal {
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.432);
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header > p {
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+}
+nav > a {
+    margin: 10px;
+    text-decoration: none;
+    color: rgba(168, 228, 215, 0.788);
+}
+nav a:hover {
+    background-color: rgba(62, 138, 75, 0.575);
+    border-radius: 2px;
+}
+main {
+    background-color: white; 
+    height: 100%;
+    margin: auto;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.171);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    min-width: 320px;
+    max-width: 1000px;
+}
+#conteudo {
+    font-family: idroid;
+    color: #258550;
+    font-size: 25px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+h2 {
+    font-family: idroid;
+    font-size: 20px;
+    color: #258550;
+    padding-left: 15px;
+    background-color: rgba(175, 216, 198, 0.425);
+}
+main > p {
+    text-indent: 20px;
+   padding-left: 15px;
+   line-height: 2em;
+}
+img {
+    display: block;
+    margin: auto;
+}
+strong {
+    color:#258550;
+}
+.inkscape {
+    text-decoration: none;
+}
+main > img {
+    width: 100%;
+}
+.android {
+    width: 250px;
+    height: 200px;
+}
+div.video {
+    background-color: #258550;
+    margin-bottom: 30px;
+    padding: 20px;
+    padding-bottom: 54.1%;
+    position: relative;
+}
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+h3 {
+    background-color: #258550;
+    color: white;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+aside {
+    border-radius: 10px;
+    background-color: #8fddb2;
+    margin: 15px 15px 15px 15px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.274);
+}
+aside > p {
+    text-indent: 20px;
+    padding: 10px 10px 10px 10px;
+}
+aside ul {
+    columns: 2;
+}
+.final {
+    font-size: 13px;
+    padding-top: 10px;
+}
+footer > p {
+    text-align: center;
+    background-color: #258550;
+    margin-bottom: 0px;
+}
