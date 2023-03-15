@@ -29,7 +29,7 @@ header > p {
 nav > a {
     margin: 10px;
     text-decoration: none;
-    color: rgba(168, 228, 215, 0.788);
+    color: rgba(123, 250, 191, 0.788);
 }
 nav a:hover {
     background-color: rgba(62, 138, 75, 0.575);
@@ -59,6 +59,13 @@ h2 {
     padding-left: 15px;
     background-color: rgba(175, 216, 198, 0.425);
 }
+.links {
+    text-decoration: none;
+}
+.links:hover {
+    background-color: #74ca9b7c;
+    text-decoration: underline;
+}
 main > p {
     text-indent: 20px;
    padding-left: 15px;
@@ -70,9 +77,6 @@ img {
 }
 strong {
     color:#258550;
-}
-.inkscape {
-    text-decoration: none;
 }
 main > img {
     width: 100%;
@@ -117,7 +121,8 @@ aside ul {
 }
 .final {
     font-size: 13px;
-    padding-top: 10px;
+    padding-top: 8px;
+    text-align: center;
 }
 footer > p {
     text-align: center;
